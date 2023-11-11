@@ -5,11 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`${process.env.VERCEL_APP}`),
+  metadataBase: new URL(`https://metadata-nextjs-git-main-lanss-id.vercel.app/`),
   title: 'Dhsian Atelier',
   description: 'Website Dhisan Atelier Arsitektur: melayani developer indonesia',
   openGraph: {
-    url: process.env.VERCEL_APP,
+    url: 'https://metadata-nextjs-git-main-lanss-id.vercel.app/',
     type: 'website',
     title: 'Dhsian Atelier',
     description: 'Website Dhisan Atelier Arsitektur: melayani developer indonesia',
